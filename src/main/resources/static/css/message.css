@@ -1,0 +1,47 @@
+/*message style lcz */
+.textArea {
+    -fx-padding: 10 5 10 5
+}
+
+.message-info {
+    -fx-background-color: #edf2fc;
+    -fx-background-radius: 5;
+    -fx-fill: #909399;
+}
+.message-info * {
+    -fx-text-fill: #909399;
+    -fx-fill: #909399;
+}
+
+.message-success {
+    -fx-background-color: #c2e7b0;
+    -fx-background-radius: 5;
+    -fx-fill: #67C23A;
+
+}
+.message-success * {
+    -fx-text-fill: #67C23A;
+    -fx-fill: #67C23A;
+}
+
+
+.message-warn {
+    -fx-background-color: #fdf6ec;
+    -fx-background-radius: 5;
+    -fx-fill: #E6A23C;
+}
+.message-warn * {
+    -fx-text-fill: #E6A23C;
+    -fx-fill:#E6A23C;
+}
+
+
+.message-error {
+    -fx-background-color:  #fef0f0;
+    -fx-background-radius: 5;
+    -fx-fill: #F56C6C;
+}
+.message-error * {
+    -fx-text-fill: #F56C6C;
+    -fx-fill: #F56C6C;
+}

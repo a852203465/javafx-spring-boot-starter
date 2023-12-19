@@ -1,0 +1,14 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+
+<?import javafx.scene.text.*?>
+<?import javafx.scene.layout.AnchorPane?>
+<AnchorPane prefHeight="20" prefWidth="500" maxHeight="20" maxWidth="500"
+            fx:controller="cn.darkjrong.javafx.controller.NoticeController"
+            xmlns="http://javafx.com/javafx/17" xmlns:fx="http://javafx.com/fxml/1"
+            stylesheets="@/static/css/message.css"
+            styleClass="message-info">
+    <TextFlow styleClass="textArea" fx:id="messageArea" prefHeight="20" prefWidth="500" textAlignment="CENTER">
+        <Text fx:id="messageInfo" text="This is messageInfo."/>
+    </TextFlow>
+</AnchorPane>
