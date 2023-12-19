@@ -1,4 +1,4 @@
-package cn.darkjrong.javafx;
+package cn.darkjrong.javafx.support;
 
 class JavaFxConstant {
 	public final static String KEY_STAGE_STYLE = "javafx.stage.style";

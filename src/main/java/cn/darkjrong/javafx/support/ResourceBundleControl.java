@@ -1,4 +1,4 @@
-package cn.darkjrong.javafx;
+package cn.darkjrong.javafx.support;
 
 import java.io.IOException;
 import java.io.InputStream;

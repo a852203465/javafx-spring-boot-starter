@@ -18,12 +18,13 @@
 ### 创建Spring Boot项目并启动
  - 在main方法中调用'AbstractJavaFxApplicationSupport.launch(TestApplication.class, MainView.class, DemoSceneView.class, args)'
  - MainView: 继承'AbstractJavaFxApplicationSupport'的
- - DemoSceneView: 启动完成后需要渲染的页面 
+ - DemoSceneView: 启动完成后需要渲染的页面
+
 ```java
 package cn.darkjrong.javafx;
 
+import cn.darkjrong.javafx.support.AbstractJavaFxApplicationSupport;
 import org.springframework.boot.test.context.SpringBootTest;
-import org.springframework.context.annotation.ComponentScan;
 
 public class TestApplication {
     public static void main(String[] args) {
@@ -40,8 +41,11 @@ MessageUtils.error(indexController.getDisplayAreaPane(), "请选择日志类型�
 
 ### 新建的View
     - 在新建的View增加'@FXMLView'
+
 ```java
 package cn.darkjrong.javafx;
+
+import cn.darkjrong.javafx.support.AbstractFxmlView;
 
 @FXMLView("/fxml/DemoSceneView.fxml")
 public class DemoSceneView extends AbstractFxmlView {

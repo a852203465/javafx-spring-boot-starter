@@ -1,4 +1,4 @@
-package cn.darkjrong.javafx;
+package cn.darkjrong.javafx.support;
 
 import cn.darkjrong.javafx.utils.ResourceUtils;
 import cn.hutool.core.util.ObjUtil;

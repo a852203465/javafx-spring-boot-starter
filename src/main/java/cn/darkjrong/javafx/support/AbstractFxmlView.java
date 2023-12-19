@@ -1,5 +1,6 @@
-package cn.darkjrong.javafx;
+package cn.darkjrong.javafx.support;
 
+import cn.darkjrong.javafx.FXMLView;
 import javafx.application.Platform;
 import javafx.beans.property.ObjectProperty;
 import javafx.beans.property.SimpleObjectProperty;

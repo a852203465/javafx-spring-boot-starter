@@ -1,4 +1,6 @@
 package cn.darkjrong.javafx;
 
-public class MainView extends AbstractJavaFxApplicationSupport{
+import cn.darkjrong.javafx.support.AbstractJavaFxApplicationSupport;
+
+public class MainView extends AbstractJavaFxApplicationSupport {
 }
